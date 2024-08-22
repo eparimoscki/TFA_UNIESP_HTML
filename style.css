@@ -4,4 +4,26 @@
     margin: 0;
     padding: 0;
     box box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/226/682/452/minecraft-waterfall-video-games-wallpaper-899048fd616a7d1bd697080f5011c60d.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    width: 27rem;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px;
+    color:white;
+    border-radius: 40px;
+    padding: 30px 40px;
 }
